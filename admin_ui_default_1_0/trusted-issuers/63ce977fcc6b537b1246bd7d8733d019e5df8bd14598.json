@@ -1,0 +1,50 @@
+{
+    "id": "63ce977fcc6b537b1246bd7d8733d019e5df8bd14598",
+    "name": "AdminUITrustedIssuer",
+    "description": "Admin UI Trusted Issuer",
+    "configuration_endpoint": "https://your-openid-provider.server/.well-known/openid-configuration",
+    "token_metadata": {
+        "access_token": {
+            "trusted": true,
+            "entity_type_name": "Gluu::Flex::AdminUI::Access_token",
+            "user_id": "sub",
+            "token_id": "jti",
+            "workload_id": "rp_id",
+            "claim_mapping": {},
+            "required_claims": [
+                "jti",
+                "iss",
+                "aud",
+                "sub",
+                "exp",
+                "nbf"
+            ],
+            "role_mapping": "role",
+            "principal_mapping": [
+                "Gluu::Flex::AdminUI::Workload"
+            ]
+        },
+        "userinfo_token": {
+            "trusted": true,
+            "entity_type_name": "Gluu::Flex::AdminUI::Userinfo_token",
+            "user_id": "sub",
+            "token_id": "jti",
+            "role_mapping": "jansAdminUIRole",
+            "claim_mapping": {},
+            "principal_mapping": [
+                "Gluu::Flex::AdminUI::User"
+            ]
+        },
+        "id_token": {
+            "trusted": true,
+            "entity_type_name": "Gluu::Flex::AdminUI::id_token",
+            "user_id": "sub",
+            "token_id": "jti",
+            "role_mapping": "role",
+            "claim_mapping": {},
+            "principal_mapping": [
+                "Gluu::Flex::AdminUI::User"
+            ]
+        }
+    }
+}
