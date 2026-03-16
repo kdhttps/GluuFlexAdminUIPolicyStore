@@ -1,0 +1,54 @@
+{
+    "policy_store_id": "2fb50e468d9dfefa142d1fce4fa9747efbd3a0f08de5",
+    "generated_date": "2026-03-16T15:34:23.423336+00:00",
+    "files": {
+        "entities/admin_ui_default_1_0_entities.json": {
+            "size": 9843,
+            "checksum": "sha1:09099fcb6747c2f4665405429a15cbae2b33fbcd"
+        },
+        "metadata.json": {
+            "size": 389,
+            "checksum": "sha1:560f63b3d1f83f10f23464c9058ceae63a04b2ca"
+        },
+        "policies/25dd7b8d35b9911198c98b5f7a9d00edf7ffd3a57f4b.cedar": {
+            "size": 293,
+            "checksum": "sha1:e7cecca9ca42767aaa78d9c44d12e37774f477db"
+        },
+        "policies/3491a61835b109f583fd7d966a5321a9a3040e65648a.cedar": {
+            "size": 330,
+            "checksum": "sha1:22db2c943a949591b2c898c219cad27073ce0392"
+        },
+        "policies/5d710599cad19ae8161cf2ecda1e6e9ce95e9abf3379.cedar": {
+            "size": 325,
+            "checksum": "sha1:b4457e2650372e3c0f19869fcec0bd89df00069a"
+        },
+        "policies/726e414d9cb9ee972252bc9f4654b351f9d04c46e9b1.cedar": {
+            "size": 316,
+            "checksum": "sha1:2ef2ca4b33bf78b69a140550bac16f5e34ed0ab0"
+        },
+        "policies/823a1f007c1848c1d0477ffe8a40e2ef214a0e438e30.cedar": {
+            "size": 295,
+            "checksum": "sha1:002a1e87acdcef3245049897a14d401a90081405"
+        },
+        "policies/9481a62beb262541da5ee22c8529c3195c89d5ef4dd8.cedar": {
+            "size": 319,
+            "checksum": "sha1:c68962c84ca75cef9e7f93f72499b79372cdb750"
+        },
+        "policies/be7131eba728666981de9b5727a637446539614aa928.cedar": {
+            "size": 307,
+            "checksum": "sha1:41792813b742e6cb117912f6c76661d0241bd8af"
+        },
+        "policies/e0fb2ddc76d0b2114649ed76ed5cccbc4bbb4aa35e46.cedar": {
+            "size": 236,
+            "checksum": "sha1:bc042c89863ad531aea8a1e31dcf045032910752"
+        },
+        "schema.cedarschema": {
+            "size": 2464,
+            "checksum": "sha1:7834012194fe52d92595df80e64b5a34db18150a"
+        },
+        "trusted-issuers/63ce977fcc6b537b1246bd7d8733d019e5df8bd14598.json": {
+            "size": 1580,
+            "checksum": "sha1:db036b7bfa258396f9fc6a9aac0bae507211623d"
+        }
+    }
+}
