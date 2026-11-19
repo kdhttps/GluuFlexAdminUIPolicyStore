@@ -1,0 +1,29 @@
+{
+    "GluuFlexAdminUI::Access_token": {
+        "type": "jwt",
+        "issuer": "GluuFlexAdminUI",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": []
+    },
+    "GluuFlexAdminUI::id_token": {
+        "type": "jwt",
+        "issuer": "GluuFlexAdminUI",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": []
+    },
+    "GluuFlexAdminUI::Userinfo_token": {
+        "type": "jwt",
+        "issuer": "GluuFlexAdminUI",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": []
+    }
+}
