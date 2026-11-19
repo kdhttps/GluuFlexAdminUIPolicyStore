@@ -1,0 +1,36 @@
+{
+    "Gluu::Flex::AdminUI::Access_token": {
+        "type": "jwt",
+        "issuer": "AdminUITrustedIssuer",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": [
+            "jti",
+            "iss",
+            "aud",
+            "sub",
+            "exp",
+            "nbf"
+        ]
+    },
+    "Gluu::Flex::AdminUI::Userinfo_token": {
+        "type": "jwt",
+        "issuer": "AdminUITrustedIssuer",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": []
+    },
+    "Gluu::Flex::AdminUI::id_token": {
+        "type": "jwt",
+        "issuer": "AdminUITrustedIssuer",
+        "configuration_endpoints": {
+            "configuration": "https://your-openid-provider.server/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": []
+    }
+}

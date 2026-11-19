@@ -6,6 +6,7 @@
         "description": "PolicyStore for Access Control of Gluu Flex Admin UI",
         "version": "0.0.1",
         "created_date": "2026-03-16T15:33:38.165139+00:00",
-        "updated_date": "2026-03-16T15:33:38.165139+00:00"
-    }
+        "updated_date": "2026-11-19T12:12:46.864624+00:00"
+    },
+    "policy_store_spec_version": 2
 }
